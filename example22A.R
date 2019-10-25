@@ -13,3 +13,6 @@ tigerData <- read.csv(url("http://whitlockschluter.zoology.ubc.ca/wp-content/dat
 head(tigerData)
 tigerTable <- sort(table(tigerData$activity), decreasing = TRUE)
 tigerTable
+
+#arrange the frequency table vertically
+data.frame(Frequency = tigerTable)
