@@ -1,2 +1,10 @@
-#R script for week 9
-#practicing in git
+activity frequency
+grass 44
+nontimber 11
+fishing 8
+herding 7
+disturbing 5
+timber 5
+sleeping 5
+walking 3
+toilet 2
