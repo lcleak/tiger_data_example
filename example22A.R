@@ -8,3 +8,8 @@ timber 5
 sleeping 5
 walking 3
 toilet 2
+
+tigerData <- read.csv(url("http://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter02/chap02e2aDeathsFromTigers.csv"))
+head(tigerData)
+tigerTable <- sort(table(tigerData$activity), decreasing = TRUE)
+tigerTable
